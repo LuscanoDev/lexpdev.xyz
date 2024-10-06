@@ -1,0 +1,173 @@
+body {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  image-rendering: pixelated;
+}
+h1 {
+  color: #00ff00;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 8px;
+  display: inline-block;
+}
+a {
+  color: #00bfff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.cursor {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+.experiment {
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: #58FF49 solid 5px;
+  background-color: #1d291e;
+}
+
+.experiment:hover {
+  background-color: #2d3f2e;
+}
+
+.experiment img {
+  width: 100px;
+  height: 100px;
+  border-radius: 14px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.experiment-content {
+  text-align: left;
+  position: relative;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.sidebar {
+  max-height: 900px;
+  border: #004113 solid 5px;
+  border-radius: 10px;
+  width: 100%;
+  flex-direction: column;
+  float: left;
+  background-color: #000000;
+}
+div{
+  display: block;
+}
+.icon{
+  height: 250px;
+}
+.site{
+  margin-top: 40px;
+  margin: 10px;
+}
+.itemsidebar img{
+  width: 150px;
+}
+.topbar {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  background-color: #282828;
+  border-radius: 20px;
+  border: #363636 solid 5px;
+}
+.topbar p {
+  color: limegreen;
+  position: absolute;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  /* Starting position */
+  -moz-transform:translateX(100%);
+  -webkit-transform:translateX(100%);	
+  transform:translateX(100%);
+  /* Apply animation to this element */	
+  -moz-animation: topbar 15s linear infinite;
+  -webkit-animation: topbar 15s linear infinite;
+  animation: topbar 15s linear infinite;
+}
+  /* Move it (define the animation) */
+  @-moz-keyframes topbar {
+  0%   { -moz-transform: translateX(100%); }
+  100% { -moz-transform: translateX(-100%); }
+}
+  @-webkit-keyframes topbar {
+  0%   { -webkit-transform: translateX(100%); }
+  100% { -webkit-transform: translateX(-100%); }
+}
+  @keyframes topbar {
+  0%   { 
+  -moz-transform: translateX(100%); /* Firefox bug fix */
+  -webkit-transform: translateX(100%); /* Firefox bug fix */
+  transform: translateX(100%); 		
+}
+  100% { 
+  -moz-transform: translateX(-100%); /* Firefox bug fix */
+  -webkit-transform: translateX(-100%); /* Firefox bug fix */
+  transform: translateX(-100%); 
+}
+}
+.embed{
+  width: 100px;
+}
+.linguagem{
+  display: none;
+}
+.github{
+  display: none;
+}
+.version{
+  display: none; 
+}
+
+.menuoption {
+  margin: auto;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 64px;
+  font-family: "Afacad", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 25px;
+  border: #ffffff solid 3px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.iconyoutube {
+  color: red;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  border: #004113 solid 2px;
+  border-radius: 2px;
+}
+
+.madewith{
+  display: none;
+}
