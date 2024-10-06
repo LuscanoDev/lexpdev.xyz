@@ -1,0 +1,52 @@
+body {
+    background-color: #1e1e1e;
+    font-family: monospace;
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(172, 255, 178);
+}
+
+.initialImage {
+    width: 100%;
+}
+
+.initialText {
+    font-size: 20px;
+}
+
+.left{
+    float: left;
+    width: 70%;
+}
+
+.right{
+    float: right;
+    width: 30%;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.satIcon {
+    color: rgb(80, 80, 255);
+}
+
+.albumLink {
+    margin: 20%;
+    color: rgb(210, 202, 255);
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.photoIcon {
+    color: #9054ff;
+}

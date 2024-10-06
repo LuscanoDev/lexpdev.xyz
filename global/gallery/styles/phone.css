@@ -1,0 +1,46 @@
+body {
+    background-color: #1e1e1e;
+    font-family: monospace;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(172, 255, 178);
+}
+
+.initialImage {
+    width: 100%;
+}
+
+.initialText {
+    font-size: 20px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.icon {
+    font-size: 25px;
+}
+
+.satIcon {
+    color: rgb(80, 80, 255);
+}
+
+.albumLink {
+    margin: 10%;
+    color: rgb(210, 202, 255);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.photoIcon {
+    color: #9054ff;
+}

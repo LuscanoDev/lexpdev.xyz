@@ -1,0 +1,600 @@
+[
+    {
+        "date": 1720310401,
+        "path": "/global/gallery/photography/07-07-2024 Rio de Janeiro Brazil 2.JPG",
+        "br": {
+            "title": "Alguns barcos",
+            "info": "tirado com uma Fujimi Finepix L50",
+            "state": "Rio de Janeiro",
+            "country": "Brasil"
+        },
+        "en": {
+            "title": "Some boats",
+            "info": "taken with a Fujimi Finepix L50",
+            "state": "Rio de Janeiro",
+            "country": "Brazil"
+        }
+    },
+
+    {
+        "date": 1720310400,
+        "path": "/global/gallery/photography/07-07-2024 Rio de Janeiro Brazil 1.JPG",
+        "br": {
+            "title": "Alguns barcos",
+            "info": "tirado com uma Fujimi Finepix L50",
+            "state": "Rio de Janeiro",
+            "country": "Brasil"
+        },
+        "en": {
+            "title": "Some boats",
+            "info": "taken with a Fujimi Finepix L50",
+            "state": "Rio de Janeiro",
+            "country": "Brazil"
+        }
+    },
+
+    {
+        "date": 1727568000,
+        "path": "/global/gallery/photography/29-09-2024 Sao Paulo Brazil.jpg",
+        "br": {
+            "title": "Nuvens",
+            "info": "tirado com um Moto G53",
+            "state": "São Paulo",
+            "country": "Brasil"
+        },
+        "en": {
+            "title": "Clouds",
+            "info": "taken with Moto G53",
+            "state": "São Paulo",
+            "country": "Brazil"
+        }
+    },
+
+    {
+        "date": 1725753600,
+        "path": "/global/gallery/photography/08-09-2024 Sao Paulo Brazil.jpg",
+        "br": {
+            "title": "O sol atrás de um poste",
+            "info": "tirado com um Moto G53 com um monóculo",
+            "state": "São Paulo",
+            "country": "Brasil"
+        },
+        "en": {
+            "title": "The sun behind a pole",
+            "info": "taken with Moto G53 with a monocle",
+            "state": "São Paulo",
+            "country": "Brazil"
+        }
+    },
+
+    {
+        "date": 1725580800,
+        "path": "/global/gallery/photography/06-09-2024 Sao Paulo Brazil.jpg",
+        "br": {
+            "title": "Algumas nuvens em cima do sol",
+            "info": "tirado com um Moto G53 com um monóculo",
+            "state": "São Paulo",
+            "country": "Brasil"
+        },
+        "en": {
+            "title": "Some clouds over the sun",
+            "info": "taken with Moto G53 with a monocle",
+            "state": "São Paulo",
+            "country": "Brazil"
+        }
+    },
+
+    {
+        "date": 1727827200,
+        "path": "/global/gallery/photography/02-10-2024 Sao Paulo Brazil.png",
+        "br": {
+            "title": "Eclipse solar parcial",
+            "info": "tirado com um Moto G53 com um monóculo",
+            "state": "São Paulo",
+            "country": "Brasil"
+        },
+        "en": {
+            "title": "Partial solar eclipse",
+            "info": "taken with Moto G53 with a monocle",
+            "state": "São Paulo",
+            "country": "Brazil"
+        }
+    },
+
+  {
+    "date": 1723518000,
+    "path": "/global/gallery/photography/13-08-2024 Sao Paulo Brazil.jpg",
+    "br": {
+        "title": "Céu roxo com a ISS (sim, é aquele risco)",
+        "info": "tirado com um Moto G53",
+        "state": "São Paulo",
+        "country": "Brasil"
+    },
+    "en": {
+        "title": "Purple sky with the ISS (yes, it's that white risk)",
+        "info": "taken with Moto G53",
+        "state": "São Paulo",
+        "country": "Brazil"
+    }
+  },
+  {
+      "date": 1722740400,
+      "path": "/global/gallery/photography/04-08-2024 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Por do sol com nuvens",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Sunset with clouds",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1722654000,
+      "path": "/global/gallery/photography/03-08-2024 Sao Paulo Brazil1.jpg",
+      "br": {
+          "title": "Favela a noite",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Favela at night",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1722654000,
+      "path": "/global/gallery/photography/03-08-2024 Sao Paulo Brazil2.jpg",
+      "br": {
+          "title": "Por do sol em uma rua (eu amo fotos do por do sol)",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Sunset in a street (I love sunsets)",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1722654000,
+      "path": "/global/gallery/photography/03-08-2024 Sao Paulo Brazil3.jpg",
+      "br": {
+          "title": "Antena parabólica",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Satellite dish",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1720321200,
+      "path": "/global/gallery/photography/07-07-2024 Rio de Janeiro Brazil.jpg",
+      "br": {
+          "title": "Pão de açucar",
+          "info": "tirado com um Moto G53",
+          "state": "Rio de Janeiro",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Pão de açucar",
+          "info": "taken with Moto G53",
+          "state": "Rio de Janeiro",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1717815600,
+      "path": "/global/gallery/photography/08-06-2024 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Foto da ISS em longa exposição",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "ISS picture with long expoxure",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1717470000,
+      "path": "/global/gallery/photography/04-06-2024 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Minha câmera Fujimi FinepixL50",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "My Fujimi Finepix L50 camera",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1717383600,
+      "path": "/global/gallery/photography/03-06-2024 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Ondas sonoras",
+          "info": "tirado com uma Fujimi Finepix L50",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Sound waves",
+          "info": "taken with a Fujimi Finepix L50",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1714532400,
+      "path": "/global/gallery/photography/01-05-2024 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "'Globocop', um helicóptero de um canal de televisão",
+          "info": "tirado com uma Fujimi Finepix L50",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "'Globocop', a helicopter from a TV channel with zoom",
+          "info": "taken with a Fujimi Finepix L50",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1710385200,
+      "path": "/global/gallery/photography/14-03-2024 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Lua 'vermelha' na cidade.",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "'Red' moon in the city",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1709434800,
+      "path": "/global/gallery/photography/03-03-2024 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "A chuva está vindo",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "The rain is coming",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705978800,
+      "path": "/global/gallery/photography/23-01-2024 Brazil 1.jpg",
+      "br": {
+          "title": "Nuvens",
+          "info": "tirado com um Moto G53",
+          "state": "???",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Clouds",
+          "info": "taken with Moto G53",
+          "state": "???",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705978800,
+      "path": "/global/gallery/photography/23-01-2024 Ceara Brazil 2.jpg",
+      "br": {
+          "title": "\"Google earth ao vivo\"",
+          "info": "tirado com um Moto G53",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "\"Live Google Earth\"",
+          "info": "taken with Moto G53",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705892400,
+      "path": "/global/gallery/photography/22-01-2024 Ceara Brazil.jpg",
+      "br": {
+          "title": "bliss.jpg",
+          "info": "tirado com um Moto G53",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "bliss.jpg",
+          "info": "taken with Moto G53",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705719600,
+      "path": "/global/gallery/photography/20-01-2024 Ceara Brazil.jpg",
+      "br": {
+          "title": "Cidade no... por do sol (denovo)",
+          "info": "tirado com um Moto G53",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Sunset in a small city... (again)",
+          "info": "taken with Moto G53",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705546800,
+      "path": "/global/gallery/photography/18-01-2024 Ceara Brazil.jpg",
+      "br": {
+          "title": "Uma boa foto da lua",
+          "info": "tirado com um Moto G53",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "A good picture of the Moon",
+          "info": "taken with Moto G53",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705374000,
+      "path": "/global/gallery/photography/16-01-2024 Ceara Brazil.jpg",
+      "br": {
+          "title": "Uma foto (desfocada) de estrelas",
+          "info": "tirado com um Moto G53",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "A (blurry) photo from stars",
+          "info": "taken with Moto G53",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705287600,
+      "path": "/global/gallery/photography/15-01-2024 Ceara Brazil.jpg",
+      "br": {
+          "title": "",
+          "info": "tirado com um Moto G53",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "",
+          "info": "taken with Moto G53",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705287600,
+      "path": "/global/gallery/photography/09-01-2024 Ceara Brazil 2.jpg",
+      "br": {
+          "title": "Por do sol em algum lugar",
+          "info": "tirado com um Moto G53",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Sunset somewhere",
+          "info": "taken with Moto G53",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1705287600,
+      "path": "/global/gallery/photography/09-01-2024 Ceara Brazil 3.jpg",
+      "br": {
+          "title": "Por do sol em uma rua",
+          "info": "tirado com um Moto G53",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Sunset somewhere",
+          "info": "taken with Moto G53",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1704682800,
+      "path": "/global/gallery/photography/08-01-2024 Sao Paulo Brazil2.jpg",
+      "br": {
+          "title": "Gotas de chuva",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Rain drops",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1704682800,
+      "path": "/global/gallery/photography/08-01-2024 Sao Paulo Brazil1.jpg",
+      "br": {
+          "title": "Aeroporto de Guarulhos no por do sol",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Sunset in the Guarulhos airport",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1704078000,
+      "path": "/global/gallery/photography/01-01-2024 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Teste de longa exposição no ano novo",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Long exposure test in new year",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1703991600,
+      "path": "/global/gallery/photography/31-12-2023 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Rua",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Street",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1703905200,
+      "path": "/global/gallery/photography/30-12-2023 Sao Paulo Brazil 2.jpg",
+      "br": {
+          "title": "Céu azul",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      },
+      "en": {
+          "title": "Purple sky",
+          "info": "taken with a Fujimi Finepix L50",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1703894400,
+      "path": "/global/gallery/photography/30-12-2023 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Por do sol em uma praia",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Sunset in a beach",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1698462000,
+      "path": "/global/gallery/photography/28-10-2023 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "Pixações",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Graffiti",
+          "info": "taken with Moto G53",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1666580400,
+      "path": "/global/gallery/photography/24-10-2022 Sao Paulo Brazil.jpg",
+      "br": {
+          "title": "tic tac menta",
+          "info": "tirado com um Moto G53",
+          "state": "São Paulo",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "menta tic tac.",
+          "info": "taken with a Fujimi Finepix L50",
+          "state": "São Paulo",
+          "country": "Brazil"
+      }
+  },
+  {
+      "date": 1643857200,
+      "path": "/global/gallery/photography/03-02-2023 Ceara Brazil.jpg",
+      "br": {
+          "title": "Sapo.",
+          "info": "tirado com uma Fujimi Finepix L50",
+          "state": "Ceará",
+          "country": "Brasil"
+      },
+      "en": {
+          "title": "Frog.",
+          "info": "taken with a Fujimi Finepix L50",
+          "state": "Ceará",
+          "country": "Brazil"
+      }
+  },
+  {
+    "date": 1705341600,
+    "path": "/global/gallery/photography/09-01-2024%20Ceara%20Brazil%201.jpg",
+    "br": {
+        "title": "Estrelas",
+        "info": "tirado com uma Fujimi Finepix L50",
+        "state": "Ceará",
+        "country": "Brasil"
+    },
+    "en": {
+        "title": "Stars",
+        "info": "taken with a Fujimi Finepix L50",
+        "state": "Ceará",
+        "country": "Brazil"
+    }
+}
+]
