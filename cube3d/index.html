@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      input[type="file"] {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    </style>
+    <title>Cube 3D</title>
+  </head>
+  <body>
+    <canvas></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r112/three.min.js"></script>
+
+
+
+
+    
+
+    <script>
+// Cria o ambiente de renderização
+const canvas = document.querySelector('canvas');
+const renderer = new THREE.WebGLRenderer({canvas});
+renderer.setSize(window.innerWidth, window.innerHeight);  // ajusta o tamanho do ambiente de renderização para preencher a tela
+renderer.shadowMap.enabled = true;  // habilita as sombras
+
+// Cria a câmera
+const fov = 75;
+const aspect = window.innerWidth / window.innerHeight;  // atualiza o aspecto para preencher a tela
+const near = 0.1;
+const far = 5;
+const camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+camera.position.z = 2;
+
+// Cria a cena
+const scene = new THREE.Scene();
+
+// Cria um plano de chão
+const planeSize = 40;
+const planeGeo = new THREE.PlaneBufferGeometry(planeSize, planeSize);
+const planeMat = new THREE.MeshPhongMaterial({color: '#ddd'});
+const plane = new THREE.Mesh(planeGeo, planeMat);
+plane.rotation.x = Math.PI / -2;  // rotaciona o plano para ficar na horizontal
+plane.receiveShadow = true;  // permite que o plano receba sombra
+scene.add(plane);
+
+// Cria uma luz direcional
+const dirLight = new THREE.DirectionalLight('white', 1);
+dirLight.position.set(-1, 2, 4);
+dirLight.castShadow = true;  // habilita a geração de sombra
+scene.add(dirLight);
+
+// Cria um material
+// Cria um material
+const material = new THREE.MeshPhongMaterial({color: 'white'});
+
+// Cria uma geometria de cubo
+const geometry = new THREE.BoxGeometry(1, 1, 1);
+
+// Cria a malha (geometria + material)
+const cube = new THREE.Mesh(geometry, material);
+cube.castShadow = true;  // permite que o cubo gere sombra
+scene.add(cube);
+
+// Adiciona um input de seleção de arquivo
+const fileInput = document.createElement('input');
+fileInput.type = 'file';
+document.body.appendChild(fileInput);
+
+// Lê o arquivo selecionado
+fileInput.addEventListener('change', event => {
+  const file = event.target.files[0];
+  const reader = new FileReader();
+
+  reader.addEventListener('load', event => {
+    // Obtém o conteúdo do arquivo como uma string de dados URI
+    const dataUrl = event.target.result;
+
+    // Cria uma textura a partir da string de dados URI
+    const texture = new THREE.TextureLoader().load(dataUrl);
+    material.map = texture;  // atribui a textura ao material do cubo
+    material.needsUpdate = true;  // atualiza o material
+  });
+
+  reader.readAsDataURL(file);
+});
+
+
+// Renderiza a cena
+function render(time) {
+  renderer.setClearColor('#545454');  // altera a cor de limpeza para branco
+
+  time *= 0.001;  // converte o tempo para segundos
+
+  cube.rotation.x = time;
+  cube.rotation.y = time;
+
+  renderer.render(scene, camera);
+
+  requestAnimationFrame(render);
+}
+requestAnimationFrame(render);
+
+
+    </script>
+  </body>
+</html>

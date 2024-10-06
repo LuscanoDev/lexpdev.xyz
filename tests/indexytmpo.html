@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YTMPo</title>
+    <style id="mainStyles">
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            margin: 10px;
+            image-rendering: pixelated;
+            margin-right: 200px;
+            margin-left: 200px;
+        }
+
+        h1 {
+            color: #ff0000;
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: 8px;
+            display: inline-block;
+        }
+
+        .container {
+            display: flex;
+            margin: auto;
+            width: 350px;
+            position: relative;
+            cursor: pointer;
+            border: #ff0000 outset 2px;
+            background-color: #291d1d;
+            height: 573px;
+        }
+
+        .container-content {
+            text-align: center;
+            width: 100%;
+        }
+
+        .thumb {
+            width: 350px;
+            margin-bottom: 5px;
+        }
+
+        input{
+            height: 35px;
+            width: 200px;
+            font-size: 20px;
+        }
+        select{
+            height: 38px;
+            width: 68px;   
+            font-size: 20px;       
+        }
+
+        button{
+            width: 285px;
+            height: 45px;
+            border: #ff0000 solid 2px;
+            background-color: #830000;
+            color: #ffffff;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            border: #ff0000 solid 2px;
+            background-color: #a30000;  
+        }
+        
+        .back img{
+            width: 150px;
+        }
+    </style>
+    <style id="phoneStyles" media="screen and (max-width: 1000px)">
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: 'Courier New', monospace;
+            text-align: center;
+            image-rendering: pixelated;
+        }
+
+        h1 {
+            color: #ff0000;
+            overflow: hidden;
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: 8px;
+            display: inline-block;
+        }
+
+        .container {
+            display: flex;
+            margin: auto;
+            width: 350px;
+            position: relative;
+            cursor: pointer;
+            border: #ff0000 outset 2px;
+            background-color: #291d1d;
+            height: 573px;
+        }
+
+        .container-content {
+            text-align: center;
+            width: 100%;
+        }
+
+        .thumb {
+            width: 350px;
+            margin-bottom: 5px;
+        }
+
+        input{
+            height: 35px;
+            width: 200px;
+            font-size: 20px;
+        }
+        select{
+            height: 38px;
+            width: 68px;   
+            font-size: 20px;       
+        }
+
+        button{
+            width: 285px;
+            height: 45px;
+            border: #ff0000 solid 2px;
+            background-color: #830000;
+            color: #ffffff;
+            border-radius: 5px;
+        }
+
+        button:hover{
+            border: #ff0000 solid 2px;
+            background-color: #a30000;  
+        }
+        
+        .back img{
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="topbar">
+        <p id="topMessage"></p>
+    </div>
+
+    <div class="site">
+
+        <h1 id="title">- YTMPo -</h1>
+        <p>a youtube video/music downloader without ads or additional stuff.</p><br>
+
+        <div class="container">
+            <div class="container-content">
+                <form method="post" action="/download">
+                    <img src="https://i.imgur.com/c9lcdqQ.png" alt="thumb" class="thumb">
+                    <p>Name: --</p>
+                    <p>Seconds: --</p>
+                    <input type="text" id="video_url" name="video_url" required>
+                    <select id="format_choice" name="format_choice">
+                        <option value="mp4">MP4</option>
+                        <option value="mp3">MP3</option>
+                    </select><br><br>
+
+                    <button type="submit">Download</button>
+                </form>
+            </div>
+        </div>
+
+        <p>Made by LuscanoDev/lexp<br>in 2024.</p>
+        <a class="back" href="http://lexpdev.ddns.net:8080"><img src="img/back_button.png" alt="Back"></a>
+    </div>
+
+
+    <!--Script para mudar o CSS caso esteja sendo acessado por uma tela pequena-->
+    <script>
+        // Check the screen size and toggle styles accordingly
+        function toggleStyles() {
+            const mainStyles = document.getElementById('mainStyles');
+            const phoneStyles = document.getElementById('phoneStyles');
+
+            if (window.innerWidth < 1000) {
+                mainStyles.setAttribute('media', 'not all');
+                phoneStyles.removeAttribute('media');
+            } else {
+                phoneStyles.setAttribute('media', 'not all');
+                mainStyles.removeAttribute('media');
+            }
+        }
+
+        // Initial check on page load
+        window.addEventListener('load', toggleStyles);
+        // Check on window resize
+        window.addEventListener('resize', toggleStyles);
+    </script>
+
+    <!--Script para deixar piscando o cursor na frente do titulo-->
+    <script>
+        const titleElement = document.getElementById('title');
+        const titleText = titleElement.textContent;
+        titleElement.textContent = '';
+
+        function typeWriter(text, i) {
+            if (i < text.length) {
+                titleElement.textContent += text.charAt(i);
+                setTimeout(() => typeWriter(text, i + 1), Math.floor(Math.random() * 250) + 50);
+            }
+        }
+
+        titleElement.style.opacity = 1;
+        typeWriter(titleText, 0);
+    </script>
+</body>
+
+</html>

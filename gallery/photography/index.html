@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lexpdev gallery</title>
+  <link rel="stylesheet" href="../../global/gallery/photography/style.css" id="mainStyles">
+  <link rel="stylesheet" href="../../global/gallery/photography/phone.css" id="phoneStyles" media="screen and (max-width: 1000px)">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Jua&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ffb912caff.js" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2PFHH9K82"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M2PFHH9K82');
+  </script>
+</head>
+
+<body>
+  <h1 class="title">LexpDev <span style="color: rgb(172, 178, 255);">Gallery</span></h1>
+
+  <hr>
+  <a href="../" class="linkBack"><- Back</a>
+      <hr>
+      <p class="initialText">I like taking photos too! Here are some of my best photos that I took, usually of landscapes, and some things from Earth or from space.</p>
+      <hr>
+      <em style="font-size: 20px; color: rgb(146, 146, 146);">newest to oldest | click for full resolution</em><br><br>
+      <div id="album" class="album">
+        <!-- photos will load here -->
+      </div>
+        
+      <em style="font-size: 20px; color: rgb(146, 146, 146);">if you want to use some of these photos in your project or work, contact me at <a href="mailto:lexpdevxyz.contact@ gmail.com">my email</a> or use the photo giving credit to me.</em>
+
+        <script src="loadPhotos.js"></script>
+        <!--Script para carregar as fotos e mudar o CSS caso esteja sendo acessado por uma tela pequena-->
+        <script>
+          // Check the screen size and toggle styles accordingly
+          function toggleStyles() {
+            const mainStyles = document.getElementById('mainStyles');
+            const phoneStyles = document.getElementById('phoneStyles');
+      
+            if (window.innerWidth < 1000) {
+              mainStyles.setAttribute('media', 'not all');
+              phoneStyles.removeAttribute('media');
+            } else {
+              phoneStyles.setAttribute('media', 'not all');
+              mainStyles.removeAttribute('media');
+            }
+          }
+      
+          // Initial check on page load
+          window.addEventListener('load', toggleStyles);
+          // Check on window resize
+          window.addEventListener('resize', toggleStyles);
+        </script>
+      </body>
+      
+      </html>

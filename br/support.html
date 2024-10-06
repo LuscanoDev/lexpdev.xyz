@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--                                                                                   -->
+<!--                                                                                   -->
+<!-- Code originally made in Portuguese, so some variables and tags are in Portuguese. -->
+<!--                                                                                   -->
+<!--                                                                                   -->
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LexpDev -- Apoie-me</title>
+  <link rel="stylesheet" href="../global/styles/main.css" id="mainStyles">
+  <link rel="stylesheet" href="../global/styles/phone.css" id="phoneStyles" media="screen and (max-width: 1000px)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Jua&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ffb912caff.js" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2PFHH9K82"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M2PFHH9K82');
+  </script>
+</head>
+
+<body>
+  <div class="topbar">
+    <p id="topMessage"></p>
+  </div>
+
+  <div class="site">
+    <div class="sidebar">
+      <br>
+      <a href="../">Change to English</a><br>
+      <a href="index.html"><img src="../global/imgs/lexpdev.png" alt="icon" class="icon"><br></a>
+      <!-- começo itens da sidebar -->
+      <a class="itemsidebar" href="index.html">
+        <div class="menuoption"><i class="fa-solid fa-house"></i> Home</div>
+      </a>
+
+      <a class="itemsidebar" href="websites.html">
+        <div class="menuoption"><i class="fa-brands fa-internet-explorer"></i> Sites</div>
+      </a>
+
+      <a class="itemsidebar" href="programs.html">
+        <div class="menuoption"><i class="fa-solid fa-computer"></i> Programas</div>
+      </a>
+
+      <a class="itemsidebar" href="gallery/">
+        <div class="menuoption"><i class="fa-solid fa-image"></i> Galeria</div>
+      </a>
+
+      <!--<a class="itemsidebar" href="javascript:alert('Em desenvolvimento!!');"><img src="img/blog_button.png" alt="Blog"></a>-->
+      <a class="itemsidebar" href="https://youtube.com/@oluscano" target="_blank">
+        <div class="menuoption"><i class="fa-brands fa-youtube iconyoutube"></i> Youtube</div>
+      </a>
+
+      <a class="itemsidebar" href="support.html">
+        <div class="menuoption"><i class="fa-solid fa-heart"></i> Apoie-me</div>
+      </a>
+
+      <!-- fim itens da sidebar -->
+      <hr>
+      <a href="about.html" class="itemsidebar">
+        <div class="menuoption">Sobre</div>
+      </a>
+
+      <a href="credits.html" class="itemsidebar">
+        <div class="menuoption">Créditos</div>
+      </a>
+    </div>
+    <h1 id="title">- LexpDev -</h1>
+    <div class="siteText">
+        <h2>Apoie-me</h2>
+        <p>
+            Você gosta dos meus projetos e quer apoiar o que eu faço?
+            Apoie-me no <a class="kofi-button" style="color: rgb(220, 20, 60); text-decoration: underline;" href="https://ko-fi.com/lexpdev">Ko-fi!</a><br><br>
+        
+            <i style="color: rgb(163, 163, 163);">Ou apenas escaneie esse QR code</i><br>
+            <img style="height: 250px;" src="/global/imgs/kofi-lexpdev.png" alt="Código QR do Ko-fi"><br>
+        
+            <p>Se você me apoiar, vou colocar seu nome nessa página para sempre!</p>
+            <p>Pessoas que me apoiaram: <span style="color: rgb(105, 185, 255);">Ninguém doou... ainda!</span></p>
+        </p>        
+    </div>
+  </div>
+
+
+  <!--Script para mudar o CSS caso esteja sendo acessado por uma tela pequena-->
+  <script>
+    // Check the screen size and toggle styles accordingly
+    function toggleStyles() {
+      const mainStyles = document.getElementById('mainStyles');
+      const phoneStyles = document.getElementById('phoneStyles');
+
+      if (window.innerWidth < 1000) {
+        mainStyles.setAttribute('media', 'not all');
+        phoneStyles.removeAttribute('media');
+      } else {
+        phoneStyles.setAttribute('media', 'not all');
+        mainStyles.removeAttribute('media');
+      }
+    }
+
+    // Initial check on page load
+    window.addEventListener('load', toggleStyles);
+    // Check on window resize
+    window.addEventListener('resize', toggleStyles);
+  </script>
+
+  <!--Script para deixar piscando o cursor na frente do titulo-->
+  <script>
+    const titleElement = document.getElementById('title');
+    const titleText = titleElement.textContent;
+    titleElement.textContent = '';
+
+    function typeWriter(text, i) {
+      if (i < text.length) {
+        titleElement.textContent += text.charAt(i);
+        setTimeout(() => typeWriter(text, i + 1), Math.floor(Math.random() * 250) + 50);
+      }
+    }
+
+    titleElement.style.opacity = 1;
+    typeWriter(titleText, 0);
+  </script>
+  <!--Script para gerar as mensagens aleatórias-->
+  <script src="messages.js"></script>
+</body>
+
+</html>
