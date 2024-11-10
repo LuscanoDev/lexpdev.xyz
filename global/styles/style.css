@@ -368,6 +368,7 @@ body {
 
 .aboutpicture img {
     border-radius: 5px;
+    height: 120px;
 }
 
 .aboutname {
