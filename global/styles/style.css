@@ -1,0 +1,606 @@
+:root {
+    --backgroudbox: rgb(18, 18, 18);
+    --backgroud: rgb(30, 30, 30);
+}
+
+body {
+    background-color: var(--backgroud);
+    color: white;
+    font-family: monospace;
+    margin-top: 50px;
+}
+
+.box {
+    padding: 10px;
+}
+
+.site {
+    /* border: #ff2e54 1px solid; eu te amo borda rosa voce me ajudou muito no debug do site <3 */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+    margin: auto;
+    width: 750px;
+    padding: 10px;
+    align-items: start;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+.logo {
+    background-color: var(--backgroudbox);
+    width: 160px;
+    border-radius: 10px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    padding-top: 10px;
+    background-color: var(--backgroudbox);
+    width: 450px;
+    border-radius: 10px;
+}
+
+.logo img {
+    height: 110px;
+    object-fit: cover;
+}
+
+.title img {
+    display: block;
+    height: 140px;
+    margin: auto;
+}
+
+.sidebar {
+    grid-column: 1;
+    grid-row: 1 / 4;
+    width: 122px;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    background-color: var(--backgroudbox);
+    width: 750px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.flag {
+    position: absolute;
+    z-index: 1;
+    right: 0px;
+    top: -3px;
+    font-size: 30px;
+    background-color: rgb(22, 22, 22);
+    text-decoration: none;
+    width: 40px;
+    padding-left: 10px;
+    border-left: #262626 3px solid;
+}
+
+.message p {
+    flex: 1;
+    color: #44FF34;
+    height: 100%;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    /* Starting position */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: topbar 15s linear infinite;
+    -webkit-animation: topbar 15s linear infinite;
+    animation: topbar 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes topbar {
+    0% {
+        -moz-transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes topbar {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes topbar {
+    0% {
+        -moz-transform: translateX(100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(100%);
+        /* Firefox bug fix */
+        transform: translateX(100%);
+    }
+
+    100% {
+        -moz-transform: translateX(-100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(-100%);
+        /* Firefox bug fix */
+        transform: translateX(-100%);
+    }
+}
+
+
+.main {
+    background-color: var(--backgroudbox);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.item {
+    background-color: var(--backgroudbox);
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+.language {
+    font-size: 20px;
+    background-color: var(--backgroudbox);
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+}
+
+.language p {
+    font-size: 10px;
+}
+
+.item icon {
+    font-size: 65px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.item p {
+    margin: -13px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar bigitem:hover {
+    color: rgb(215, 215, 215);
+}
+
+.item:hover {
+    background-color: rgb(16, 16, 16);
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 115px;
+    border: 3px rgb(44, 44, 44) solid;
+    border-radius: 100px;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-left: 5px;
+}
+
+.internet:hover {
+    color: rgb(105, 151, 251);
+}
+
+.programs:hover {
+    color: rgb(140, 255, 140);
+}
+
+.gallery:hover {
+    color: rgb(149, 255, 214);
+}
+
+.main p {
+    font-size: 13px;
+}
+
+.main h1 {
+    text-align: center;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.credits {
+    text-align: center;
+    opacity: 0.3;
+}
+
+.yt:hover {
+    color: rgb(255, 122, 122);
+}
+
+.github:hover {
+    color: #a5a5a5;
+}
+
+.creditsSocial:hover {
+    color: rgb(255, 255, 82);
+}
+
+.support:hover {
+    color: #ff2e54;
+}
+
+.mainsites {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: -10px;
+    background-color: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.project {
+    position: relative;
+    text-align: center;
+    background-color: var(--backgroudbox);
+    width: 305px;
+    height: 185px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project img {
+    border-radius: 10px;
+}
+
+.project pinfo {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    opacity: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(0);
+}
+
+.project img {
+    height: 185px;
+    width: 305px;
+}
+
+.project.expanded pinfo {
+    height: 100%;
+    opacity: 1;
+    border-radius: 10px;
+    transform: translateY(0);
+}
+
+.project.retracting pinfo {
+    transform: translateY(10px);
+}
+
+.project:hover pinfo {
+    opacity: 1;
+}
+
+.project ptitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projectDescription {
+    padding: 1px;
+}
+
+.note {
+    color: #5f5f5f;
+}
+
+.center {
+    text-align: center;
+}
+
+.mainsobre {
+    background-color: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mainsobre .headersobre {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    gap: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+}
+
+.aboutpicture {
+    background-color: var(--backgroudbox);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.aboutpicture img {
+    border-radius: 5px;
+}
+
+.aboutname {
+    background-color: var(--backgroudbox);
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    align-content: center;
+}
+
+.smol {
+    font-size: 12px;
+}
+
+.mainsobre .cardssobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+}
+
+.mainsobre .bigcard {
+    gap: 10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: var(--backgroudbox);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.mainsobre a {
+    color: #8fc7ff;
+}
+
+.card {
+    background-color: var(--backgroudbox);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card li {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.listdescription {
+    font-size: 12px;
+}
+
+.bigcard h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.bigcard topic {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bigcard p {
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.topbar {
+    display: inline;
+}
+
+/* small screens */
+@media only screen and (max-width: 800px) {
+    body {
+        margin-top: 5px;
+    }
+
+    .sidebar {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .sidebar hr {
+        display: none;
+    }
+
+    .item {
+        height: 40px;
+        width: 23vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .item icon {
+        font-size: 16px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .item p {
+        margin: 0px;
+        margin-left: 5%;
+        font-size: 1em;
+    }
+
+    .social {
+        display: none;
+    }
+
+    .credits {
+        display: none;
+    }
+
+    .site {
+        display: inline;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .message {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        width: 100%;
+    }
+
+    .aboutpicture img {
+        width: 110px;
+    }
+
+    .aboutname {
+        font-size: 20px;
+    }
+
+    .smol {
+        font-size: 14px;
+    }
+
+    .logo {
+        background-color: var(--backgroudbox);
+        width: 100%;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        width: 100%;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .title img {
+        width: 100%;
+        margin: auto;
+    }
+
+    .message p {
+        -moz-animation: topbar 8s linear infinite;
+        -webkit-animation: topbar 8s linear infinite;
+        animation: topbar 8s linear infinite;
+    }
+
+    .main {
+        margin-top: 10px;
+        margin-right: 0px;
+        padding: 10px;
+    }
+
+    .mainsites {
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+    }
+
+    .project ptitle {
+        font-size: 20px;
+    }
+
+    @media (min-width: 695px) {
+        .mainsites {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    .project {
+        width: auto;
+        height: auto;
+        margin-right: -10px;
+    }
+
+    .project pinfo {
+        opacity: 1;
+        height: 28px;
+    }
+
+    .project img {
+        height: 100%;
+        width: 100%;
+    }
+
+
+    .mainsobre .headersobre {
+        display: grid;
+        gap: 10px;
+    }
+
+    .mainsobre .cardssobre {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    @media (min-width: 600px) {
+        .mainsobre .cardssobre {
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+    }
+}

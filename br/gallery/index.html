@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexpdev gallery</title>
+    <link rel="stylesheet" href="../../global/gallery/styles/style.css" id="mainStyles">
+    <link rel="stylesheet" href="../../global/gallery/styles/phone.css" id="phoneStyles" media="screen and (max-width: 1000px)">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Jua&family=Pixelify+Sans:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ffb912caff.js" crossorigin="anonymous"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2PFHH9K82"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M2PFHH9K82');
+  </script>
+</head>
+<body>
+    <h1 style="color: rgb(255, 102, 161);">ATENÇÃO! Essa página está sendo reformada, novas coisas vão aparecer aqui no futuro!</h1>
+    <h1 class="title"><span style="color: rgb(172, 178, 255);">Galeria d</span>o LexpDev</h1>
+    
+    <hr>
+    <div class="left">
+        <p class="initialText">Aqui você vai achar algumas fotos que eu tirei de coisas na terra e coisas no espaço.</p>
+        <a href="sat_img/" class="albumLink"><i class="fa-solid fa-satellite satIcon"></i> Imagens de satélites</a><br><br>
+        <a href="photography/" class="albumLink"><i class="fa-solid fa-camera photoIcon"></i></i> Fotografia</a><br><br>
+        <hr>
+        <p style="text-align: center;">Feito por LexpDev<br>Em 2024.</p>
+
+    </div>
+    <div class="right">
+        <img src="preview.png" class="initialImage">
+    </div>
+
+    
+
+  <!--Script para mudar o CSS caso esteja sendo acessado por uma tela pequena-->
+  <script>
+    // Check the screen size and toggle styles accordingly
+    function toggleStyles() {
+      const mainStyles = document.getElementById('mainStyles');
+      const phoneStyles = document.getElementById('phoneStyles');
+
+      if (window.innerWidth < 1000) {
+        mainStyles.setAttribute('media', 'not all');
+        phoneStyles.removeAttribute('media');
+      } else {
+        phoneStyles.setAttribute('media', 'not all');
+        mainStyles.removeAttribute('media');
+      }
+    }
+
+    // Initial check on page load
+    window.addEventListener('load', toggleStyles);
+    // Check on window resize
+    window.addEventListener('resize', toggleStyles);
+  </script>
+</body>
+</html>

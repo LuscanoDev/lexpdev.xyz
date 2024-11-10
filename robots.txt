@@ -1,0 +1,9 @@
+User-agent: Googlebot
+Allow: /cube3d
+Allow: /cubeclicker
+Allow: /ytmpo
+Disallow: /img
+Disallow: /styles
+
+User-agent: *
+Allow: /
