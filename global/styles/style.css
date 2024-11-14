@@ -592,6 +592,7 @@ body {
     .project pinfo {
         opacity: 1;
         height: 28px;
+        font-size: 13px;
     }
 
     .project img {
