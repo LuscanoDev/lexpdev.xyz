@@ -87,7 +87,7 @@ body {
     position: absolute;
     z-index: 1;
     right: 0px;
-    top: -1px;
+    top: 0px;
     font-size: 30px;
     background-color: rgb(22, 22, 22);
     text-decoration: none;
@@ -167,16 +167,6 @@ body {
     text-align: center;
     border-radius: 10px;
     height: 120px;
-    width: 120px;
-}
-
-.language {
-    font-size: 20px;
-    background-color: var(--backgroudbox);
-    margin-bottom: 10px;
-    text-align: center;
-    border-radius: 10px;
-    height: 40px;
     width: 120px;
 }
 
