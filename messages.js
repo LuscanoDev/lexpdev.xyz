@@ -2,6 +2,7 @@ var palavras = [
     "lexpdev was here",
     "surfing the internet...",
     "rm -rf /*",
+    ":(){:|:&};:",
     "./lexpdev.sh",
     "i use arch btw",
     '¯\\_(ツ)_/¯',
