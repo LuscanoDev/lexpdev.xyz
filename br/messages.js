@@ -4,6 +4,7 @@ var palavras = [
     "rm -rf /*",
     "./lexpdev.sh",
     "i use arch btw",
+    ":(){:|:&};:",
     '¯\\_(ツ)_/¯',
     'ᕕ( ᐛ )ᕗ',
     '+500 linhas de CSS!'
